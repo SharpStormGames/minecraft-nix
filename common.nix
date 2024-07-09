@@ -1,13 +1,13 @@
-{ pkgs, lib, metadata }:
+{ pkgs, lib }:
 let
   inherit (lib) warn getExe;
 in
 self: super:
 with self; {
 
-  fabricProfiles = metadata.fabric.profiles;
-  fabricLibraries = metadata.fabric.libraries;
-  fabricLoaders = metadata.fabric.loaders;
+  fabricProfiles = importJSON ./metadata/fabric/profiles.json;
+  fabricLibraries = importJSON ./metadata/fabric/libraries.json;
+  fabricLoaders = importJSON ./metadatafabric/loaders.json;
 
   fetchJar = name:
     let
@@ -47,8 +47,8 @@ with self; {
   mkBuild = { baseModulePath, buildFabricModules, buildVanillaModules }:
     gameVersion: assets:
     let
-      versionInfo = metadata.versions.${assets.sha1};
-      assetsIndex = metadata.assets.${versionInfo.assetIndex.sha1};
+      versionInfo = importJSON (pkgs.fetchurl { inherit (assets) url sha1; });
+      assetsIndex = importJSON (pkgs.fetchurl { inherit (versionInfo.assetsIndex) url sha1; });
       fabricProfile = fabricProfiles.${gameVersion} or null;
     in buildMc {
       inherit baseModulePath buildFabricModules buildVanillaModules versionInfo

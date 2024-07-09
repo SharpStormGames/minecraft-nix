@@ -4,13 +4,8 @@
   inputs = {
    nixpkgs = { url = "github:NixOS/nixpkgs"; };
    flake-utils = { url = "github:numtide/flake-utils"; };
-   metadata = {
-    url = "github:Ninlives/minecraft.json";
-    inputs.nixpkgs.follows = "nixpkgs";
-    inputs.flake-utils.follows = "flake-utils";
-   };
   };
-  outputs = { self, nixpkgs, flake-utils, metadata }:
+  outputs = { self, nixpkgs, flake-utils }:
    with flake-utils.lib;
    with nixpkgs.lib;
    with builtins;
@@ -34,7 +29,7 @@
       py = pkgs.python3.withPackages (p: [ p.requests ]);
       in {
        legacyPackages = lib.makeOverridable (import ./all-packages.nix) {
-        inherit pkgs lib metadata OS;
+        inherit pkgs lib OS;
         authClientID = "adf6c624-b9ba-472e-9469-e54cc8f98e87";
        };
        apps.update = mkApp {

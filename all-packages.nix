@@ -1,8 +1,7 @@
-{ pkgs ? import <nixpkgs> { }, lib ? pkgs.lib, authClientID, metadata
-, OS ? "linux" }:
+{ pkgs ? import <nixpkgs> { }, lib ? pkgs.lib, authClientID, OS ? "linux" }:
 with lib;
 let
-  extendedLib = lib.extend (import ./common.nix { inherit pkgs lib metadata; });
+  extendedLib = lib.extend (import ./common.nix { inherit pkgs lib; });
   client = import ./builder/client.nix {
     lib = extendedLib;
     inherit pkgs authClientID OS;
@@ -11,7 +10,7 @@ let
     lib = extendedLib;
     inherit pkgs;
   };
-  manifests = metadata.manifests;
+  manifests = importJSON ./metadata/vanilla/manifests.json;
   convertVersion = v: "v" + replaceStrings [ "." " " ] [ "_" "_" ] v;
 in mapAttrs' (gameVersion: assets: {
   name = convertVersion gameVersion;
