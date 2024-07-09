@@ -1,26 +1,48 @@
-name: "Update inputs"
+name: "Update"
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  update:
+  update-inputs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
-    - name: Install nixFlake
-      uses: cachix/install-nix-action@v19
+      uses: actions/checkout@v4
+    - name: Install Nix
+      uses: cachix/install-nix-action@v21
       with:
         extra_nix_config: |
           experimental-features = nix-command flakes
-    - name: Configure git
-      run: |
-        git config --global user.name 'Automation - Ninlives'
-        git config --global user.email 'wqseleven@gmail.com'
-    - name: Nix flake update
-      run: nix flake update --commit-lock-file
+    - name: Update Flake Inputs
+      run: nix flake update
     - name: Push
-      run: |
-        git push
+      if: ${{ success() }}
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update Inputs"
+
+  update-metadata:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Install Nix
+      uses: cachix/install-nix-action@v21
+      with:
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+    - name: Update Metadata
+      run: nix run .#update
+    - name: Pull
+      run: git pull
+    - name: Push
+      if: ${{ success() }}
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Update Metadata"
+      
+
