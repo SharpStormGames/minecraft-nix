@@ -2,11 +2,11 @@
 with lib;
 let
  extendedLib = lib.extend (import ./common.nix { inherit pkgs lib; });
- client = import ./builder/client.nix {
+ client = import ./client.nix {
   lib = extendedLib;
   inherit pkgs authClientID OS;
  };
- manifests = importJSON ./metadata/vanilla/manifests.json;
+ manifests = importJSON ../meta/vanilla/manifests.json;
  convertVersion = v: "v" + replaceStrings [ "." " " ] [ "_" "_" ] v;
 in mapAttrs' (gameVersion: assets: {
  name = convertVersion gameVersion;

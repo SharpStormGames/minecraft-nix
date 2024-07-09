@@ -28,14 +28,14 @@
         builtins.throw "Unsupported system ${system}";
       py = pkgs.python3.withPackages (p: [ p.requests ]);
       in {
-       legacyPackages = lib.makeOverridable (import ./all-packages.nix) {
+       legacyPackages = lib.makeOverridable (import ./build/packages.nix) {
         inherit pkgs lib OS;
         authClientID = "adf6c624-b9ba-472e-9469-e54cc8f98e87";
        };
        apps.update = mkApp {
         drv = let
          snippet = dir: ''
-          pushd ./metadata/${dir}
+          pushd ./meta/${dir}
           ${py}/bin/python update.py
           popd
         '';
@@ -46,11 +46,11 @@
         '';
        };
       }) // {
-       manifests = importJSON ./metadata/vanilla/manifests.json;
-       versions = importJSONFiles ./metadata/vanilla/versions;
-       assets = importJSONFiles ./metadata/vanilla/asset_indices;
-       fabric.profiles = importJSON ./metadata/fabric/profiles.json;
-       fabric.libraries = importJSON ./metadata/fabric/libraries.json;
-       fabric.loaders = importJSON ./metadata/fabric/loaders.json;
+       manifests = importJSON ./meta/vanilla/manifests.json;
+       versions = importJSONFiles ./meta/vanilla/versions;
+       assets = importJSONFiles ./meta/vanilla/asset_indices;
+       fabric.profiles = importJSON ./meta/fabric/profiles.json;
+       fabric.libraries = importJSON ./meta/fabric/libraries.json;
+       fabric.loaders = importJSON ./meta/fabric/loaders.json;
       };
 }

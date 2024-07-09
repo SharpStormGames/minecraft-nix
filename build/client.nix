@@ -102,7 +102,7 @@ let
 
 in {
  build = mkBuild {
-  baseModulePath = ../module/client.nix;
+  baseModulePath = ../module/default.nix;
   inherit buildFabricModules buildVanillaModules;
  };
 }

@@ -23,10 +23,8 @@ let
   };
 in {
  imports = [
-  ./common/version.nix
-  ./common/java.nix
-  ./common/launch-script.nix
-  ./common/files.nix
+  ./launch-script.nix
+  ./files.nix
  ];
 
  options = {
@@ -72,6 +70,17 @@ in {
    type = listOf package;
    visible = false;
   };
+
+  java = lib.mkOption {
+   type = lib.types.path;
+   description = "Java executable to use.";
+  };
+  
+  version = lib.mkOption {
+   type = lib.types.singleLineStr;
+   readOnly = true;
+  };
+
   assets.directory = mkInternalOption path;
   assets.index = mkInternalOption singleLineStr;
   mainClass = mkInternalOption singleLineStr;

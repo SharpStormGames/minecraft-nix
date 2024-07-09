@@ -4,9 +4,9 @@ let
 in
 self: super:
 with self; {
- fabricProfiles = importJSON ./metadata/fabric/profiles.json;
- fabricLibraries = importJSON ./metadata/fabric/libraries.json;
- fabricLoaders = importJSON ./metadatafabric/loaders.json;
+ fabricProfiles = importJSON ../meta/fabric/profiles.json;
+ fabricLibraries = importJSON ../meta/fabric/libraries.json;
+ fabricLoaders = importJSON ../meta/fabric/loaders.json;
  fetchJar = name:
   let
    inherit (fabricLibraries.${name}) repo hash;
