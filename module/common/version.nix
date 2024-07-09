@@ -1,6 +1,6 @@
 { lib, ... }: {
-  options.version = lib.mkOption {
-    type = lib.types.singleLineStr;
-    readOnly = true;
-  };
+ options.version = lib.mkOption {
+  type = lib.types.singleLineStr;
+  readOnly = true;
+ };
 }
