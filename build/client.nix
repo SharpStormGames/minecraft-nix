@@ -52,6 +52,7 @@ let
   '';
   
   buildFabricLibraries = libraries: map (lib: fetchJar lib) libraries;
+  buildQuiltLibraries = libraries: map (lib: fetchJar lib) libraries;
 
   buildBasicModule = versionInfo: assetsIndex:
    let
@@ -99,10 +100,24 @@ let
      mainClass = loader.mainClass.client;
     })
    ];
+  
+  buildQuiltModules = versionInfo: assetsIndex: fabricProfile:
+   let
+    loaderVersion = quiltProfile.loader;
+    loader = quiltLoaders.${loaderVersion};
+    extraJavaLibraries = buildQuiltLibraries
+     (quiltProfile.libraries.client ++ loader.libraries);
+   in [
+    (buildBasicModule versionInfo assetsIndex)
+    ({
+     libraries.java = extraJavaLibraries;
+     mainClass = loader.mainClass.client;
+    })
+   ];
 
 in {
  build = mkBuild {
   baseModulePath = ../module/default.nix;
-  inherit buildFabricModules buildVanillaModules;
+  inherit buildFabricModules buildQuiltModules buildVanillaModules;
  };
 }

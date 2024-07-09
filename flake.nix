@@ -43,6 +43,7 @@
          set -e
          ${snippet "vanilla"}
          ${snippet "fabric"}
+         ${snippet "quilt"}
         '';
        };
       }) // {
@@ -52,5 +53,8 @@
        fabric.profiles = importJSON ./meta/fabric/profiles.json;
        fabric.libraries = importJSON ./meta/fabric/libraries.json;
        fabric.loaders = importJSON ./meta/fabric/loaders.json;
+       quilt.profiles = importJSON ./meta/quilt/profiles.json;
+       quilt.libraries = importJSON ./meta/quilt/libraries.json;
+       quilt.loaders = importJSON ./meta/quilt/loaders.json;
       };
 }

@@ -13,10 +13,11 @@ in mapAttrs' (gameVersion: assets: {
  value = let
   clients = client.build gameVersion assets;
   notSupported = pkgs.writeShellScriptBin "notSupported" ''
-   Fabric loader does not support game version "${gameVersion}".
+   Fabric/Quilt loader does not support game version "${gameVersion}".
   '';
  in {
   fabric.client = clients.fabric or notSupported;
+  quilt.client = clients.quilt or notSupported;
   vanilla.client = clients.vanilla;
  };
 }) manifests

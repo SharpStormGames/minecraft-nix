@@ -7,6 +7,9 @@ with self; {
  fabricProfiles = importJSON ../meta/fabric/profiles.json;
  fabricLibraries = importJSON ../meta/fabric/libraries.json;
  fabricLoaders = importJSON ../meta/fabric/loaders.json;
+ quiltProfiles = importJSON ../meta/fabric/profiles.json;
+ quiltLibraries = importJSON ../meta/fabric/libraries.json;
+ quiltLoaders = importJSON ../meta/fabric/loaders.json;
  fetchJar = name:
   let
    inherit (fabricLibraries.${name}) repo hash;
@@ -38,10 +41,12 @@ with self; {
    let
     fabric = mkLauncher baseModulePath
      (buildFabricModules versionInfo assetsIndex fabricProfile);
+    quilt = mkLauncher baseModulePath
+     (buildQuiltModules versionInfo assetsIndex quiltProfile);
     in {
      vanilla =
       mkLauncher baseModulePath (buildVanillaModules versionInfo assetsIndex);
-    } // (optionalAttrs (fabricProfile != null) { inherit fabric; });
+    } // (optionalAttrs (fabricProfile quiltProfile != null ) { inherit quilt fabric; });
 
   mkBuild = { baseModulePath, buildFabricModules, buildVanillaModules }:
    gameVersion: assets:
@@ -50,7 +55,7 @@ with self; {
     assetsIndex = importJSON (pkgs.fetchurl { inherit (versionInfo.assetsIndex) url sha1; });
     fabricProfile = fabricProfiles.${gameVersion} or null;
    in buildMc {
-    inherit baseModulePath buildFabricModules buildVanillaModules versionInfo assetsIndex fabricProfile;
+    inherit baseModulePath buildFabricModules buildQuiltModules buildVanillaModules versionInfo assetsIndex fabricProfile quiltProfile;
   };
 
   defaultJavaVersion = versionInfo:
