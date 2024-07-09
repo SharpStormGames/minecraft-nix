@@ -19,7 +19,6 @@ TYPE = "type"
 VALUE = "value"
 CLIENT = "client"
 LOADER = 'loader'
-SERVER = "server"
 STABLE = "stable"
 VERSION = 'version'
 ARGUMENTS = "arguments"
@@ -45,35 +44,28 @@ def fetch_and_update(game_version, loader_info):
     print(f"Fetch and update for game {game_version} and loader {loader_version}")
     
     url_client = f"{META_SERVER}/v2/versions/loader/{game_version}/{loader_version}/profile/json"
-    url_server = f"{META_SERVER}/v2/versions/loader/{game_version}/{loader_version}/server/json"
     
     client_response = fetch(url_client).json()
     client_libraries = client_response[LIBRARIES]
     client_main_class = client_response[MAIN_CLASS]
 
-    server_response = fetch(url_server).json()
-    server_libraries = server_response[LIBRARIES]
-    server_main_class = server_response[MAIN_CLASS]
-
-    for library in client_libraries + server_libraries:
+    for library in client_libraries:
         if URL in library:
             update_library(library[NAME], library[URL])
         # Otherwise the library should already present in vanilla version
 
     client_library_names = set(map(lambda l: l[NAME], client_libraries))
-    server_library_names = set(map(lambda l: l[NAME], server_libraries))
 
     # Calculate minimum set of required library for each loader
-    common_names = client_library_names.intersection(server_library_names)
+    common_names = client_library_names.intersection()
     if loader_version in loaders:
         loaders[loader_version][LIBRARIES] = loaders[loader_version][LIBRARIES].intersection(common_names)
     else:
-        loaders[loader_version] = { LIBRARIES: common_names, MAIN_CLASS: { SERVER: server_main_class, CLIENT: client_main_class } }
+        loaders[loader_version] = { LIBRARIES: common_names, MAIN_CLASS: { CLIENT: client_main_class } }
     
     profiles[game_version] = {
         LOADER: loader_version,
         LIBRARIES: {
-            SERVER: server_library_names,
             CLIENT: client_library_names
         }
     }
@@ -109,7 +101,6 @@ def get_loader_infos(game_version):
 def update_profiles():
     for version in profiles:
         profile = profiles[version]
-        profile[LIBRARIES][SERVER] = sorted(list(profile[LIBRARIES][SERVER].difference(loaders[profile[LOADER]][LIBRARIES])))
         profile[LIBRARIES][CLIENT] = sorted(list(profile[LIBRARIES][CLIENT].difference(loaders[profile[LOADER]][LIBRARIES])))
     
     for loader in loaders:
