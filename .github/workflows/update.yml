@@ -37,6 +37,8 @@ jobs:
           experimental-features = nix-command flakes
     - name: Update Metadata
       run: nix run .#update
+    - name: Pull
+      run: git pull
     - name: Push
       if: ${{ success() }}
       uses: stefanzweifel/git-auto-commit-action@v5
