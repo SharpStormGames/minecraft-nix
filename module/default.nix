@@ -171,6 +171,6 @@ in {
       "''${mcargs[@]}"
    '';
   };
-  launcher = writeShellScriptBin "minecraft" config.launchScript.finalText;
+  launcher = writeShellScriptBin "minecraft-${config.version}-" config.launchScript.finalText;
  };
 }
