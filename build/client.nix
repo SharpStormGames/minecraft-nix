@@ -51,8 +51,8 @@ let
    $out/indexes/${versionInfo.assets}.json
   '';
   
-  buildFabricLibraries = libraries: map (lib: fetchJar lib) libraries;
-  buildQuiltLibraries = libraries: map (lib: fetchJar lib) libraries;
+  buildFabricLibraries = libraries: map (lib: fetchFabricJar lib) libraries;
+  buildQuiltLibraries = libraries: map (lib: fetchQuiltJar lib) libraries;
 
   buildBasicModule = versionInfo: assetsIndex:
    let
@@ -101,7 +101,7 @@ let
     })
    ];
   
-  buildQuiltModules = versionInfo: assetsIndex: fabricProfile:
+  buildQuiltModules = versionInfo: assetsIndex: quiltProfile:
    let
     loaderVersion = quiltProfile.loader;
     loader = quiltLoaders.${loaderVersion};
