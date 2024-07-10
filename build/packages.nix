@@ -16,8 +16,8 @@ in mapAttrs' (gameVersion: assets: {
    Fabric/Quilt loader does not support game version "${gameVersion}".
   '';
  in {
-  fabric.client = clients.fabric or notSupported;
-  quilt.client = clients.quilt or notSupported;
-  vanilla.client = clients.vanilla;
+  fabric = clients.fabric or notSupported;
+  quilt = clients.quilt or notSupported;
+  vanilla = clients.vanilla;
  };
 }) manifests
