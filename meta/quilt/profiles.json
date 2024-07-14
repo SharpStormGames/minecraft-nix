@@ -6,7 +6,7 @@
         "org.quiltmc:hashed:1.14.4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15": {
     "libraries": {
@@ -15,7 +15,7 @@
         "org.quiltmc:hashed:1.15"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre1": {
     "libraries": {
@@ -24,7 +24,7 @@
         "org.quiltmc:hashed:1.15-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre2": {
     "libraries": {
@@ -33,7 +33,7 @@
         "org.quiltmc:hashed:1.15-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre3": {
     "libraries": {
@@ -42,7 +42,7 @@
         "org.quiltmc:hashed:1.15-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre4": {
     "libraries": {
@@ -51,7 +51,7 @@
         "org.quiltmc:hashed:1.15-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre5": {
     "libraries": {
@@ -60,7 +60,7 @@
         "org.quiltmc:hashed:1.15-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre6": {
     "libraries": {
@@ -69,7 +69,7 @@
         "org.quiltmc:hashed:1.15-pre6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15-pre7": {
     "libraries": {
@@ -78,7 +78,7 @@
         "org.quiltmc:hashed:1.15-pre7"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15.1": {
     "libraries": {
@@ -87,7 +87,7 @@
         "org.quiltmc:hashed:1.15.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15.1-pre1": {
     "libraries": {
@@ -96,7 +96,7 @@
         "org.quiltmc:hashed:1.15.1-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15.2": {
     "libraries": {
@@ -105,7 +105,7 @@
         "org.quiltmc:hashed:1.15.2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15.2-pre1": {
     "libraries": {
@@ -114,7 +114,7 @@
         "org.quiltmc:hashed:1.15.2-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.15.2-pre2": {
     "libraries": {
@@ -123,7 +123,7 @@
         "org.quiltmc:hashed:1.15.2-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16": {
     "libraries": {
@@ -132,7 +132,7 @@
         "org.quiltmc:hashed:1.16"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre1": {
     "libraries": {
@@ -141,7 +141,7 @@
         "org.quiltmc:hashed:1.16-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre2": {
     "libraries": {
@@ -150,7 +150,7 @@
         "org.quiltmc:hashed:1.16-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre3": {
     "libraries": {
@@ -159,7 +159,7 @@
         "org.quiltmc:hashed:1.16-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre4": {
     "libraries": {
@@ -168,7 +168,7 @@
         "org.quiltmc:hashed:1.16-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre5": {
     "libraries": {
@@ -177,7 +177,7 @@
         "org.quiltmc:hashed:1.16-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre6": {
     "libraries": {
@@ -186,7 +186,7 @@
         "org.quiltmc:hashed:1.16-pre6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre7": {
     "libraries": {
@@ -195,7 +195,7 @@
         "org.quiltmc:hashed:1.16-pre7"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-pre8": {
     "libraries": {
@@ -204,7 +204,7 @@
         "org.quiltmc:hashed:1.16-pre8"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16-rc1": {
     "libraries": {
@@ -213,7 +213,7 @@
         "org.quiltmc:hashed:1.16-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.1": {
     "libraries": {
@@ -222,7 +222,7 @@
         "org.quiltmc:hashed:1.16.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2": {
     "libraries": {
@@ -231,7 +231,7 @@
         "org.quiltmc:hashed:1.16.2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2-pre1": {
     "libraries": {
@@ -240,7 +240,7 @@
         "org.quiltmc:hashed:1.16.2-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2-pre2": {
     "libraries": {
@@ -249,7 +249,7 @@
         "org.quiltmc:hashed:1.16.2-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2-pre3": {
     "libraries": {
@@ -258,7 +258,7 @@
         "org.quiltmc:hashed:1.16.2-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2-rc1": {
     "libraries": {
@@ -267,7 +267,7 @@
         "org.quiltmc:hashed:1.16.2-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.2-rc2": {
     "libraries": {
@@ -276,7 +276,7 @@
         "org.quiltmc:hashed:1.16.2-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.3": {
     "libraries": {
@@ -285,7 +285,7 @@
         "org.quiltmc:hashed:1.16.3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.3-rc1": {
     "libraries": {
@@ -294,7 +294,7 @@
         "org.quiltmc:hashed:1.16.3-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.4": {
     "libraries": {
@@ -303,7 +303,7 @@
         "org.quiltmc:hashed:1.16.4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.4-pre1": {
     "libraries": {
@@ -312,7 +312,7 @@
         "org.quiltmc:hashed:1.16.4-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.4-pre2": {
     "libraries": {
@@ -321,7 +321,7 @@
         "org.quiltmc:hashed:1.16.4-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.4-rc1": {
     "libraries": {
@@ -330,7 +330,7 @@
         "org.quiltmc:hashed:1.16.4-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.5": {
     "libraries": {
@@ -339,7 +339,7 @@
         "org.quiltmc:hashed:1.16.5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.16.5-rc1": {
     "libraries": {
@@ -348,7 +348,7 @@
         "org.quiltmc:hashed:1.16.5-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17": {
     "libraries": {
@@ -357,7 +357,7 @@
         "org.quiltmc:hashed:1.17"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-pre1": {
     "libraries": {
@@ -366,7 +366,7 @@
         "org.quiltmc:hashed:1.17-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-pre2": {
     "libraries": {
@@ -375,7 +375,7 @@
         "org.quiltmc:hashed:1.17-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-pre3": {
     "libraries": {
@@ -384,7 +384,7 @@
         "org.quiltmc:hashed:1.17-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-pre4": {
     "libraries": {
@@ -393,7 +393,7 @@
         "org.quiltmc:hashed:1.17-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-pre5": {
     "libraries": {
@@ -402,7 +402,7 @@
         "org.quiltmc:hashed:1.17-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-rc1": {
     "libraries": {
@@ -411,7 +411,7 @@
         "org.quiltmc:hashed:1.17-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17-rc2": {
     "libraries": {
@@ -420,7 +420,7 @@
         "org.quiltmc:hashed:1.17-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1": {
     "libraries": {
@@ -429,7 +429,7 @@
         "org.quiltmc:hashed:1.17.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1-pre1": {
     "libraries": {
@@ -438,7 +438,7 @@
         "org.quiltmc:hashed:1.17.1-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1-pre2": {
     "libraries": {
@@ -447,7 +447,7 @@
         "org.quiltmc:hashed:1.17.1-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1-pre3": {
     "libraries": {
@@ -456,7 +456,7 @@
         "org.quiltmc:hashed:1.17.1-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1-rc1": {
     "libraries": {
@@ -465,7 +465,7 @@
         "org.quiltmc:hashed:1.17.1-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.17.1-rc2": {
     "libraries": {
@@ -474,7 +474,7 @@
         "org.quiltmc:hashed:1.17.1-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18": {
     "libraries": {
@@ -483,7 +483,7 @@
         "org.quiltmc:hashed:1.18"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre1": {
     "libraries": {
@@ -492,7 +492,7 @@
         "org.quiltmc:hashed:1.18-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre2": {
     "libraries": {
@@ -501,7 +501,7 @@
         "org.quiltmc:hashed:1.18-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre3": {
     "libraries": {
@@ -510,7 +510,7 @@
         "org.quiltmc:hashed:1.18-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre4": {
     "libraries": {
@@ -519,7 +519,7 @@
         "org.quiltmc:hashed:1.18-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre5": {
     "libraries": {
@@ -528,7 +528,7 @@
         "org.quiltmc:hashed:1.18-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre6": {
     "libraries": {
@@ -537,7 +537,7 @@
         "org.quiltmc:hashed:1.18-pre6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre7": {
     "libraries": {
@@ -546,7 +546,7 @@
         "org.quiltmc:hashed:1.18-pre7"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-pre8": {
     "libraries": {
@@ -555,7 +555,7 @@
         "org.quiltmc:hashed:1.18-pre8"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-rc1": {
     "libraries": {
@@ -564,7 +564,7 @@
         "org.quiltmc:hashed:1.18-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-rc2": {
     "libraries": {
@@ -573,7 +573,7 @@
         "org.quiltmc:hashed:1.18-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-rc3": {
     "libraries": {
@@ -582,7 +582,7 @@
         "org.quiltmc:hashed:1.18-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18-rc4": {
     "libraries": {
@@ -591,7 +591,7 @@
         "org.quiltmc:hashed:1.18-rc4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.1": {
     "libraries": {
@@ -600,7 +600,7 @@
         "org.quiltmc:hashed:1.18.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.1-pre1": {
     "libraries": {
@@ -609,7 +609,7 @@
         "org.quiltmc:hashed:1.18.1-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.1-rc1": {
     "libraries": {
@@ -618,7 +618,7 @@
         "org.quiltmc:hashed:1.18.1-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.1-rc2": {
     "libraries": {
@@ -627,7 +627,7 @@
         "org.quiltmc:hashed:1.18.1-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.1-rc3": {
     "libraries": {
@@ -636,7 +636,7 @@
         "org.quiltmc:hashed:1.18.1-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.2": {
     "libraries": {
@@ -645,7 +645,7 @@
         "org.quiltmc:hashed:1.18.2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.2-pre1": {
     "libraries": {
@@ -654,7 +654,7 @@
         "org.quiltmc:hashed:1.18.2-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.2-pre2": {
     "libraries": {
@@ -663,7 +663,7 @@
         "org.quiltmc:hashed:1.18.2-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.2-pre3": {
     "libraries": {
@@ -672,7 +672,7 @@
         "org.quiltmc:hashed:1.18.2-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.18.2-rc1": {
     "libraries": {
@@ -681,7 +681,7 @@
         "org.quiltmc:hashed:1.18.2-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19": {
     "libraries": {
@@ -690,7 +690,7 @@
         "org.quiltmc:hashed:1.19"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-pre1": {
     "libraries": {
@@ -699,7 +699,7 @@
         "org.quiltmc:hashed:1.19-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-pre2": {
     "libraries": {
@@ -708,7 +708,7 @@
         "org.quiltmc:hashed:1.19-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-pre3": {
     "libraries": {
@@ -717,7 +717,7 @@
         "org.quiltmc:hashed:1.19-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-pre4": {
     "libraries": {
@@ -726,7 +726,7 @@
         "org.quiltmc:hashed:1.19-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-pre5": {
     "libraries": {
@@ -735,7 +735,7 @@
         "org.quiltmc:hashed:1.19-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-rc1": {
     "libraries": {
@@ -744,7 +744,7 @@
         "org.quiltmc:hashed:1.19-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19-rc2": {
     "libraries": {
@@ -753,7 +753,7 @@
         "org.quiltmc:hashed:1.19-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1": {
     "libraries": {
@@ -762,7 +762,7 @@
         "org.quiltmc:hashed:1.19.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre1": {
     "libraries": {
@@ -771,7 +771,7 @@
         "org.quiltmc:hashed:1.19.1-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre2": {
     "libraries": {
@@ -780,7 +780,7 @@
         "org.quiltmc:hashed:1.19.1-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre3": {
     "libraries": {
@@ -789,7 +789,7 @@
         "org.quiltmc:hashed:1.19.1-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre4": {
     "libraries": {
@@ -798,7 +798,7 @@
         "org.quiltmc:hashed:1.19.1-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre5": {
     "libraries": {
@@ -807,7 +807,7 @@
         "org.quiltmc:hashed:1.19.1-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-pre6": {
     "libraries": {
@@ -816,7 +816,7 @@
         "org.quiltmc:hashed:1.19.1-pre6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-rc1": {
     "libraries": {
@@ -825,7 +825,7 @@
         "org.quiltmc:hashed:1.19.1-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-rc2": {
     "libraries": {
@@ -834,7 +834,7 @@
         "org.quiltmc:hashed:1.19.1-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.1-rc3": {
     "libraries": {
@@ -843,7 +843,7 @@
         "org.quiltmc:hashed:1.19.1-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.2": {
     "libraries": {
@@ -852,7 +852,7 @@
         "org.quiltmc:hashed:1.19.2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.2-rc1": {
     "libraries": {
@@ -861,7 +861,7 @@
         "org.quiltmc:hashed:1.19.2-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.2-rc2": {
     "libraries": {
@@ -870,7 +870,7 @@
         "org.quiltmc:hashed:1.19.2-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3": {
     "libraries": {
@@ -879,7 +879,7 @@
         "org.quiltmc:hashed:1.19.3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-pre1": {
     "libraries": {
@@ -888,7 +888,7 @@
         "org.quiltmc:hashed:1.19.3-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-pre2": {
     "libraries": {
@@ -897,7 +897,7 @@
         "org.quiltmc:hashed:1.19.3-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-pre3": {
     "libraries": {
@@ -906,7 +906,7 @@
         "org.quiltmc:hashed:1.19.3-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-rc1": {
     "libraries": {
@@ -915,7 +915,7 @@
         "org.quiltmc:hashed:1.19.3-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-rc2": {
     "libraries": {
@@ -924,7 +924,7 @@
         "org.quiltmc:hashed:1.19.3-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.3-rc3": {
     "libraries": {
@@ -933,7 +933,7 @@
         "org.quiltmc:hashed:1.19.3-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4": {
     "libraries": {
@@ -942,7 +942,7 @@
         "org.quiltmc:hashed:1.19.4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-pre1": {
     "libraries": {
@@ -951,7 +951,7 @@
         "org.quiltmc:hashed:1.19.4-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-pre2": {
     "libraries": {
@@ -960,7 +960,7 @@
         "org.quiltmc:hashed:1.19.4-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-pre3": {
     "libraries": {
@@ -969,7 +969,7 @@
         "org.quiltmc:hashed:1.19.4-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-pre4": {
     "libraries": {
@@ -978,7 +978,7 @@
         "org.quiltmc:hashed:1.19.4-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-rc1": {
     "libraries": {
@@ -987,7 +987,7 @@
         "org.quiltmc:hashed:1.19.4-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-rc2": {
     "libraries": {
@@ -996,7 +996,7 @@
         "org.quiltmc:hashed:1.19.4-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.19.4-rc3": {
     "libraries": {
@@ -1005,7 +1005,7 @@
         "org.quiltmc:hashed:1.19.4-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20": {
     "libraries": {
@@ -1014,7 +1014,7 @@
         "org.quiltmc:hashed:1.20"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre1": {
     "libraries": {
@@ -1023,7 +1023,7 @@
         "org.quiltmc:hashed:1.20-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre2": {
     "libraries": {
@@ -1032,7 +1032,7 @@
         "org.quiltmc:hashed:1.20-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre3": {
     "libraries": {
@@ -1041,7 +1041,7 @@
         "org.quiltmc:hashed:1.20-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre4": {
     "libraries": {
@@ -1050,7 +1050,7 @@
         "org.quiltmc:hashed:1.20-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre5": {
     "libraries": {
@@ -1059,7 +1059,7 @@
         "org.quiltmc:hashed:1.20-pre5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre6": {
     "libraries": {
@@ -1068,7 +1068,7 @@
         "org.quiltmc:hashed:1.20-pre6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-pre7": {
     "libraries": {
@@ -1077,7 +1077,7 @@
         "org.quiltmc:hashed:1.20-pre7"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20-rc1": {
     "libraries": {
@@ -1086,7 +1086,7 @@
         "org.quiltmc:hashed:1.20-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.1": {
     "libraries": {
@@ -1095,7 +1095,7 @@
         "org.quiltmc:hashed:1.20.1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.1-rc1": {
     "libraries": {
@@ -1104,7 +1104,7 @@
         "org.quiltmc:hashed:1.20.1-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2": {
     "libraries": {
@@ -1113,7 +1113,7 @@
         "org.quiltmc:hashed:1.20.2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-pre1": {
     "libraries": {
@@ -1122,7 +1122,7 @@
         "org.quiltmc:hashed:1.20.2-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-pre2": {
     "libraries": {
@@ -1131,7 +1131,7 @@
         "org.quiltmc:hashed:1.20.2-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-pre3": {
     "libraries": {
@@ -1140,7 +1140,7 @@
         "org.quiltmc:hashed:1.20.2-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-pre4": {
     "libraries": {
@@ -1149,7 +1149,7 @@
         "org.quiltmc:hashed:1.20.2-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-rc1": {
     "libraries": {
@@ -1158,7 +1158,7 @@
         "org.quiltmc:hashed:1.20.2-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.2-rc2": {
     "libraries": {
@@ -1167,7 +1167,7 @@
         "org.quiltmc:hashed:1.20.2-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3": {
     "libraries": {
@@ -1176,7 +1176,7 @@
         "org.quiltmc:hashed:1.20.3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3-pre1": {
     "libraries": {
@@ -1185,7 +1185,7 @@
         "org.quiltmc:hashed:1.20.3-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3-pre2": {
     "libraries": {
@@ -1194,7 +1194,7 @@
         "org.quiltmc:hashed:1.20.3-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3-pre3": {
     "libraries": {
@@ -1203,7 +1203,7 @@
         "org.quiltmc:hashed:1.20.3-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3-pre4": {
     "libraries": {
@@ -1212,7 +1212,7 @@
         "org.quiltmc:hashed:1.20.3-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.3-rc1": {
     "libraries": {
@@ -1221,7 +1221,7 @@
         "org.quiltmc:hashed:1.20.3-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.4": {
     "libraries": {
@@ -1230,7 +1230,7 @@
         "org.quiltmc:hashed:1.20.4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.4-rc1": {
     "libraries": {
@@ -1239,7 +1239,7 @@
         "org.quiltmc:hashed:1.20.4-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5": {
     "libraries": {
@@ -1248,7 +1248,7 @@
         "org.quiltmc:hashed:1.20.5"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-pre1": {
     "libraries": {
@@ -1257,7 +1257,7 @@
         "org.quiltmc:hashed:1.20.5-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-pre2": {
     "libraries": {
@@ -1266,7 +1266,7 @@
         "org.quiltmc:hashed:1.20.5-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-pre3": {
     "libraries": {
@@ -1275,7 +1275,7 @@
         "org.quiltmc:hashed:1.20.5-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-pre4": {
     "libraries": {
@@ -1284,7 +1284,7 @@
         "org.quiltmc:hashed:1.20.5-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-rc1": {
     "libraries": {
@@ -1293,7 +1293,7 @@
         "org.quiltmc:hashed:1.20.5-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-rc2": {
     "libraries": {
@@ -1302,7 +1302,7 @@
         "org.quiltmc:hashed:1.20.5-rc2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.5-rc3": {
     "libraries": {
@@ -1311,7 +1311,7 @@
         "org.quiltmc:hashed:1.20.5-rc3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.6": {
     "libraries": {
@@ -1320,7 +1320,7 @@
         "org.quiltmc:hashed:1.20.6"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.20.6-rc1": {
     "libraries": {
@@ -1329,7 +1329,7 @@
         "org.quiltmc:hashed:1.20.6-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21": {
     "libraries": {
@@ -1338,7 +1338,7 @@
         "org.quiltmc:hashed:1.21"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21-pre1": {
     "libraries": {
@@ -1347,7 +1347,7 @@
         "org.quiltmc:hashed:1.21-pre1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21-pre2": {
     "libraries": {
@@ -1356,7 +1356,7 @@
         "org.quiltmc:hashed:1.21-pre2"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21-pre3": {
     "libraries": {
@@ -1365,7 +1365,7 @@
         "org.quiltmc:hashed:1.21-pre3"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21-pre4": {
     "libraries": {
@@ -1374,7 +1374,7 @@
         "org.quiltmc:hashed:1.21-pre4"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "1.21-rc1": {
     "libraries": {
@@ -1383,7 +1383,7 @@
         "org.quiltmc:hashed:1.21-rc1"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w36a": {
     "libraries": {
@@ -1392,7 +1392,7 @@
         "org.quiltmc:hashed:19w36a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w37a": {
     "libraries": {
@@ -1401,7 +1401,7 @@
         "org.quiltmc:hashed:19w37a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w38a": {
     "libraries": {
@@ -1410,7 +1410,7 @@
         "org.quiltmc:hashed:19w38a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w38b": {
     "libraries": {
@@ -1419,7 +1419,7 @@
         "org.quiltmc:hashed:19w38b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w39a": {
     "libraries": {
@@ -1428,7 +1428,7 @@
         "org.quiltmc:hashed:19w39a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w40a": {
     "libraries": {
@@ -1437,7 +1437,7 @@
         "org.quiltmc:hashed:19w40a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w41a": {
     "libraries": {
@@ -1446,7 +1446,7 @@
         "org.quiltmc:hashed:19w41a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w42a": {
     "libraries": {
@@ -1455,7 +1455,7 @@
         "org.quiltmc:hashed:19w42a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w44a": {
     "libraries": {
@@ -1464,7 +1464,7 @@
         "org.quiltmc:hashed:19w44a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w45a": {
     "libraries": {
@@ -1473,7 +1473,7 @@
         "org.quiltmc:hashed:19w45a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w45b": {
     "libraries": {
@@ -1482,7 +1482,7 @@
         "org.quiltmc:hashed:19w45b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w46a": {
     "libraries": {
@@ -1491,7 +1491,7 @@
         "org.quiltmc:hashed:19w46a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "19w46b": {
     "libraries": {
@@ -1500,7 +1500,7 @@
         "org.quiltmc:hashed:19w46b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w06a": {
     "libraries": {
@@ -1509,7 +1509,7 @@
         "org.quiltmc:hashed:20w06a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w07a": {
     "libraries": {
@@ -1518,7 +1518,7 @@
         "org.quiltmc:hashed:20w07a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w08a": {
     "libraries": {
@@ -1527,7 +1527,7 @@
         "org.quiltmc:hashed:20w08a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w09a": {
     "libraries": {
@@ -1536,7 +1536,7 @@
         "org.quiltmc:hashed:20w09a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w10a": {
     "libraries": {
@@ -1545,7 +1545,7 @@
         "org.quiltmc:hashed:20w10a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w11a": {
     "libraries": {
@@ -1554,7 +1554,7 @@
         "org.quiltmc:hashed:20w11a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w12a": {
     "libraries": {
@@ -1563,7 +1563,7 @@
         "org.quiltmc:hashed:20w12a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w13a": {
     "libraries": {
@@ -1572,7 +1572,7 @@
         "org.quiltmc:hashed:20w13a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w13b": {
     "libraries": {
@@ -1581,7 +1581,7 @@
         "org.quiltmc:hashed:20w13b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w14a": {
     "libraries": {
@@ -1590,7 +1590,7 @@
         "org.quiltmc:hashed:20w14a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w14infinite": {
     "libraries": {
@@ -1599,7 +1599,7 @@
         "org.quiltmc:hashed:20w14infinite"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w15a": {
     "libraries": {
@@ -1608,7 +1608,7 @@
         "org.quiltmc:hashed:20w15a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w16a": {
     "libraries": {
@@ -1617,7 +1617,7 @@
         "org.quiltmc:hashed:20w16a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w17a": {
     "libraries": {
@@ -1626,7 +1626,7 @@
         "org.quiltmc:hashed:20w17a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w18a": {
     "libraries": {
@@ -1635,7 +1635,7 @@
         "org.quiltmc:hashed:20w18a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w19a": {
     "libraries": {
@@ -1644,7 +1644,7 @@
         "org.quiltmc:hashed:20w19a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w20a": {
     "libraries": {
@@ -1653,7 +1653,7 @@
         "org.quiltmc:hashed:20w20a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w20b": {
     "libraries": {
@@ -1662,7 +1662,7 @@
         "org.quiltmc:hashed:20w20b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w21a": {
     "libraries": {
@@ -1671,7 +1671,7 @@
         "org.quiltmc:hashed:20w21a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w22a": {
     "libraries": {
@@ -1680,7 +1680,7 @@
         "org.quiltmc:hashed:20w22a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w27a": {
     "libraries": {
@@ -1689,7 +1689,7 @@
         "org.quiltmc:hashed:20w27a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w28a": {
     "libraries": {
@@ -1698,7 +1698,7 @@
         "org.quiltmc:hashed:20w28a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w29a": {
     "libraries": {
@@ -1707,7 +1707,7 @@
         "org.quiltmc:hashed:20w29a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w30a": {
     "libraries": {
@@ -1716,7 +1716,7 @@
         "org.quiltmc:hashed:20w30a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w45a": {
     "libraries": {
@@ -1725,7 +1725,7 @@
         "org.quiltmc:hashed:20w45a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w46a": {
     "libraries": {
@@ -1734,7 +1734,7 @@
         "org.quiltmc:hashed:20w46a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w48a": {
     "libraries": {
@@ -1743,7 +1743,7 @@
         "org.quiltmc:hashed:20w48a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w49a": {
     "libraries": {
@@ -1752,7 +1752,7 @@
         "org.quiltmc:hashed:20w49a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "20w51a": {
     "libraries": {
@@ -1761,7 +1761,7 @@
         "org.quiltmc:hashed:20w51a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w03a": {
     "libraries": {
@@ -1770,7 +1770,7 @@
         "org.quiltmc:hashed:21w03a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w05a": {
     "libraries": {
@@ -1779,7 +1779,7 @@
         "org.quiltmc:hashed:21w05a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w05b": {
     "libraries": {
@@ -1788,7 +1788,7 @@
         "org.quiltmc:hashed:21w05b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w06a": {
     "libraries": {
@@ -1797,7 +1797,7 @@
         "org.quiltmc:hashed:21w06a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w07a": {
     "libraries": {
@@ -1806,7 +1806,7 @@
         "org.quiltmc:hashed:21w07a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w08a": {
     "libraries": {
@@ -1815,7 +1815,7 @@
         "org.quiltmc:hashed:21w08a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w08b": {
     "libraries": {
@@ -1824,7 +1824,7 @@
         "org.quiltmc:hashed:21w08b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w10a": {
     "libraries": {
@@ -1833,7 +1833,7 @@
         "org.quiltmc:hashed:21w10a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w11a": {
     "libraries": {
@@ -1842,7 +1842,7 @@
         "org.quiltmc:hashed:21w11a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w13a": {
     "libraries": {
@@ -1851,7 +1851,7 @@
         "org.quiltmc:hashed:21w13a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w14a": {
     "libraries": {
@@ -1860,7 +1860,7 @@
         "org.quiltmc:hashed:21w14a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w15a": {
     "libraries": {
@@ -1869,7 +1869,7 @@
         "org.quiltmc:hashed:21w15a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w16a": {
     "libraries": {
@@ -1878,7 +1878,7 @@
         "org.quiltmc:hashed:21w16a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w17a": {
     "libraries": {
@@ -1887,7 +1887,7 @@
         "org.quiltmc:hashed:21w17a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w18a": {
     "libraries": {
@@ -1896,7 +1896,7 @@
         "org.quiltmc:hashed:21w18a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w19a": {
     "libraries": {
@@ -1905,7 +1905,7 @@
         "org.quiltmc:hashed:21w19a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w20a": {
     "libraries": {
@@ -1914,7 +1914,7 @@
         "org.quiltmc:hashed:21w20a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w37a": {
     "libraries": {
@@ -1923,7 +1923,7 @@
         "org.quiltmc:hashed:21w37a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w38a": {
     "libraries": {
@@ -1932,7 +1932,7 @@
         "org.quiltmc:hashed:21w38a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w39a": {
     "libraries": {
@@ -1941,7 +1941,7 @@
         "org.quiltmc:hashed:21w39a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w40a": {
     "libraries": {
@@ -1950,7 +1950,7 @@
         "org.quiltmc:hashed:21w40a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w41a": {
     "libraries": {
@@ -1959,7 +1959,7 @@
         "org.quiltmc:hashed:21w41a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w42a": {
     "libraries": {
@@ -1968,7 +1968,7 @@
         "org.quiltmc:hashed:21w42a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w43a": {
     "libraries": {
@@ -1977,7 +1977,7 @@
         "org.quiltmc:hashed:21w43a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "21w44a": {
     "libraries": {
@@ -1986,7 +1986,7 @@
         "org.quiltmc:hashed:21w44a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w03a": {
     "libraries": {
@@ -1995,7 +1995,7 @@
         "org.quiltmc:hashed:22w03a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w05a": {
     "libraries": {
@@ -2004,7 +2004,7 @@
         "org.quiltmc:hashed:22w05a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w06a": {
     "libraries": {
@@ -2013,7 +2013,7 @@
         "org.quiltmc:hashed:22w06a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w07a": {
     "libraries": {
@@ -2022,7 +2022,7 @@
         "org.quiltmc:hashed:22w07a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w11a": {
     "libraries": {
@@ -2031,7 +2031,7 @@
         "org.quiltmc:hashed:22w11a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w12a": {
     "libraries": {
@@ -2040,7 +2040,7 @@
         "org.quiltmc:hashed:22w12a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w13a": {
     "libraries": {
@@ -2049,7 +2049,7 @@
         "org.quiltmc:hashed:22w13a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w13oneblockatatime": {
     "libraries": {
@@ -2058,7 +2058,7 @@
         "org.quiltmc:hashed:22w13oneblockatatime"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w14a": {
     "libraries": {
@@ -2067,7 +2067,7 @@
         "org.quiltmc:hashed:22w14a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w15a": {
     "libraries": {
@@ -2076,7 +2076,7 @@
         "org.quiltmc:hashed:22w15a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w16a": {
     "libraries": {
@@ -2085,7 +2085,7 @@
         "org.quiltmc:hashed:22w16a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w16b": {
     "libraries": {
@@ -2094,7 +2094,7 @@
         "org.quiltmc:hashed:22w16b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w17a": {
     "libraries": {
@@ -2103,7 +2103,7 @@
         "org.quiltmc:hashed:22w17a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w18a": {
     "libraries": {
@@ -2112,7 +2112,7 @@
         "org.quiltmc:hashed:22w18a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w19a": {
     "libraries": {
@@ -2121,7 +2121,7 @@
         "org.quiltmc:hashed:22w19a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w24a": {
     "libraries": {
@@ -2130,7 +2130,7 @@
         "org.quiltmc:hashed:22w24a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w42a": {
     "libraries": {
@@ -2139,7 +2139,7 @@
         "org.quiltmc:hashed:22w42a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w43a": {
     "libraries": {
@@ -2148,7 +2148,7 @@
         "org.quiltmc:hashed:22w43a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w44a": {
     "libraries": {
@@ -2157,7 +2157,7 @@
         "org.quiltmc:hashed:22w44a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w45a": {
     "libraries": {
@@ -2166,7 +2166,7 @@
         "org.quiltmc:hashed:22w45a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "22w46a": {
     "libraries": {
@@ -2175,7 +2175,7 @@
         "org.quiltmc:hashed:22w46a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w03a": {
     "libraries": {
@@ -2184,7 +2184,7 @@
         "org.quiltmc:hashed:23w03a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w04a": {
     "libraries": {
@@ -2193,7 +2193,7 @@
         "org.quiltmc:hashed:23w04a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w05a": {
     "libraries": {
@@ -2202,7 +2202,7 @@
         "org.quiltmc:hashed:23w05a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w06a": {
     "libraries": {
@@ -2211,7 +2211,7 @@
         "org.quiltmc:hashed:23w06a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w07a": {
     "libraries": {
@@ -2220,7 +2220,7 @@
         "org.quiltmc:hashed:23w07a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w12a": {
     "libraries": {
@@ -2229,7 +2229,7 @@
         "org.quiltmc:hashed:23w12a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w13a": {
     "libraries": {
@@ -2238,7 +2238,7 @@
         "org.quiltmc:hashed:23w13a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w13a_or_b": {
     "libraries": {
@@ -2247,7 +2247,7 @@
         "org.quiltmc:hashed:23w13a_or_b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w14a": {
     "libraries": {
@@ -2256,7 +2256,7 @@
         "org.quiltmc:hashed:23w14a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w16a": {
     "libraries": {
@@ -2265,7 +2265,7 @@
         "org.quiltmc:hashed:23w16a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w17a": {
     "libraries": {
@@ -2274,7 +2274,7 @@
         "org.quiltmc:hashed:23w17a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w18a": {
     "libraries": {
@@ -2283,7 +2283,7 @@
         "org.quiltmc:hashed:23w18a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w31a": {
     "libraries": {
@@ -2292,7 +2292,7 @@
         "org.quiltmc:hashed:23w31a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w32a": {
     "libraries": {
@@ -2301,7 +2301,7 @@
         "org.quiltmc:hashed:23w32a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w33a": {
     "libraries": {
@@ -2310,7 +2310,7 @@
         "org.quiltmc:hashed:23w33a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w35a": {
     "libraries": {
@@ -2319,7 +2319,7 @@
         "org.quiltmc:hashed:23w35a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w40a": {
     "libraries": {
@@ -2328,7 +2328,7 @@
         "org.quiltmc:hashed:23w40a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w41a": {
     "libraries": {
@@ -2337,7 +2337,7 @@
         "org.quiltmc:hashed:23w41a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w42a": {
     "libraries": {
@@ -2346,7 +2346,7 @@
         "org.quiltmc:hashed:23w42a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w43a": {
     "libraries": {
@@ -2355,7 +2355,7 @@
         "org.quiltmc:hashed:23w43a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w43b": {
     "libraries": {
@@ -2364,7 +2364,7 @@
         "org.quiltmc:hashed:23w43b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w44a": {
     "libraries": {
@@ -2373,7 +2373,7 @@
         "org.quiltmc:hashed:23w44a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w45a": {
     "libraries": {
@@ -2382,7 +2382,7 @@
         "org.quiltmc:hashed:23w45a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w46a": {
     "libraries": {
@@ -2391,7 +2391,7 @@
         "org.quiltmc:hashed:23w46a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w51a": {
     "libraries": {
@@ -2400,7 +2400,7 @@
         "org.quiltmc:hashed:23w51a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "23w51b": {
     "libraries": {
@@ -2409,7 +2409,7 @@
         "org.quiltmc:hashed:23w51b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w03a": {
     "libraries": {
@@ -2418,7 +2418,7 @@
         "org.quiltmc:hashed:24w03a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w03b": {
     "libraries": {
@@ -2427,7 +2427,7 @@
         "org.quiltmc:hashed:24w03b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w04a": {
     "libraries": {
@@ -2436,7 +2436,7 @@
         "org.quiltmc:hashed:24w04a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w05a": {
     "libraries": {
@@ -2445,7 +2445,7 @@
         "org.quiltmc:hashed:24w05a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w05b": {
     "libraries": {
@@ -2454,7 +2454,7 @@
         "org.quiltmc:hashed:24w05b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w06a": {
     "libraries": {
@@ -2463,7 +2463,7 @@
         "org.quiltmc:hashed:24w06a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w07a": {
     "libraries": {
@@ -2472,7 +2472,7 @@
         "org.quiltmc:hashed:24w07a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w09a": {
     "libraries": {
@@ -2481,7 +2481,7 @@
         "org.quiltmc:hashed:24w09a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w10a": {
     "libraries": {
@@ -2490,7 +2490,7 @@
         "org.quiltmc:hashed:24w10a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w11a": {
     "libraries": {
@@ -2499,7 +2499,7 @@
         "org.quiltmc:hashed:24w11a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w12a": {
     "libraries": {
@@ -2508,7 +2508,7 @@
         "org.quiltmc:hashed:24w12a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w13a": {
     "libraries": {
@@ -2517,7 +2517,7 @@
         "org.quiltmc:hashed:24w13a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w14a": {
     "libraries": {
@@ -2526,7 +2526,7 @@
         "org.quiltmc:hashed:24w14a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w14potato": {
     "libraries": {
@@ -2535,7 +2535,7 @@
         "org.quiltmc:hashed:24w14potato"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w18a": {
     "libraries": {
@@ -2544,7 +2544,7 @@
         "org.quiltmc:hashed:24w18a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w19a": {
     "libraries": {
@@ -2553,7 +2553,7 @@
         "org.quiltmc:hashed:24w19a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w19b": {
     "libraries": {
@@ -2562,7 +2562,7 @@
         "org.quiltmc:hashed:24w19b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w20a": {
     "libraries": {
@@ -2571,7 +2571,7 @@
         "org.quiltmc:hashed:24w20a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w21a": {
     "libraries": {
@@ -2580,7 +2580,7 @@
         "org.quiltmc:hashed:24w21a"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   },
   "24w21b": {
     "libraries": {
@@ -2589,6 +2589,6 @@
         "org.quiltmc:hashed:24w21b"
       ]
     },
-    "loader": "0.26.1-beta.1"
+    "loader": "0.26.4-beta.1"
   }
 }

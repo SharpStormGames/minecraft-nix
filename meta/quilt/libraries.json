@@ -4108,10 +4108,10 @@
     },
     "repo": "https://maven.quiltmc.org/repository/release/"
   },
-  "org.quiltmc:quilt-loader:0.26.1-beta.1": {
+  "org.quiltmc:quilt-loader:0.26.4-beta.1": {
     "hash": {
       "type": "sha512",
-      "value": "c9f3db6bd0bc0001d2b65de9f4ac586fdae18274a036632fbc809d80d99bf0aa7b6ffa87ef4a7e3c01f31a2a10cf906e88292d1002244fa33345b5c721f01db8"
+      "value": "90b86f8ad3d2b006cccf0f98110c8323f751b15321572dd4b343ff1e0a1837b965771761b638985d3c790cd69b69237ba8ce19d75a5e16f3e7b79529d50d030a"
     },
     "repo": "https://maven.quiltmc.org/repository/release/"
   }
