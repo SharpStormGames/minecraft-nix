@@ -20,7 +20,7 @@ let
 in {
  options = {
   mods = mkOption {
-   type = listOf jarPath;
+   type = listOf path;
    description = "List of mods load by the game.";
    default = [ ];
   };
