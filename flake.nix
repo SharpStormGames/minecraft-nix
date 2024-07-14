@@ -28,7 +28,7 @@
         builtins.throw "Unsupported system ${system}";
       py = pkgs.python3.withPackages (p: [ p.requests ]);
       in {
-       legacyPackages = lib.makeOverridable (import ./build/packages.nix) {
+       packages = lib.makeOverridable (import ./build/packages.nix) {
         inherit pkgs lib OS;
         authClientID = "adf6c624-b9ba-472e-9469-e54cc8f98e87";
        };
