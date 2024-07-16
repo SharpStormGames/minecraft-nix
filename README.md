@@ -1,7 +1,3 @@
 # minecraft.nix
 
-My fork of [Ninlives/minecraft.nix](https://github.com/Ninlives/minecraft.nix) with alot of modifications
-
-## Usage
-
-Coming Soon
+A WIP complete rewrite of [Ninlives/minecraft.nix](https://github.com/Ninlives/minecraft.nix)
