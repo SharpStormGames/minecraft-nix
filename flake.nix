@@ -19,17 +19,10 @@
      let
       inherit (pkgs) lib;
       pkgs = nixpkgs.legacyPackages.${system};
-      OS = with pkgs.stdenv;
-       if isLinux then
-        "linux"
-       else if isDarwin then
-        "osx"
-       else
-        builtins.throw "Unsupported system ${system}";
       py = pkgs.python3.withPackages (p: [ p.requests ]);
       in {
        packages = lib.makeOverridable (import ./build/packages.nix) {
-        inherit pkgs lib OS;
+        inherit pkgs lib;
         authClientID = "adf6c624-b9ba-472e-9469-e54cc8f98e87";
        };
        apps.update = mkApp {

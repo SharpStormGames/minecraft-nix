@@ -1,10 +1,10 @@
-{ pkgs ? import <nixpkgs> { }, lib ? pkgs.lib, authClientID, OS ? "linux" }:
+{ pkgs ? import <nixpkgs> { }, lib ? pkgs.lib, authClientID }:
 with lib;
 let
  extendedLib = lib.extend (import ./common.nix { inherit pkgs lib; });
  client = import ./client.nix {
   lib = extendedLib;
-  inherit pkgs authClientID OS;
+  inherit pkgs authClientID;
  };
  manifests = importJSON ../meta/vanilla/manifests.json;
  convertVersion = v: "v" + replaceStrings [ "." " " ] [ "_" "_" ] v;

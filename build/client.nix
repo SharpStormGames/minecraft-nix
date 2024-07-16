@@ -1,9 +1,8 @@
-{ pkgs, lib, authClientID, OS }:
+{ pkgs, lib, authClientID }:
 with lib;
 let
  inherit (pkgs) fetchurl libpulseaudio libGL flite alsa-lib unzip runCommand;
  inherit (pkgs.xorg) libXcursor libXrandr libXxf86vm;
-
  preloadLibraries = [
   libpulseaudio
   libXcursor
@@ -22,7 +21,7 @@ let
   map (artif:
    let
     zip = fetchurl {
-     inherit (artif.downloads.classifiers.${artif.natives.${OS}}) url sha1;
+     inherit (artif.downloads.classifiers.${artif.natives.linux}) url sha1;
     };
    in runCommand "native" { buildInputs = [ unzip ]; } ''
     mkdir -p $out/lib
@@ -58,19 +57,17 @@ let
    let
     client = fetchurl { inherit (versionInfo.downloads.client) url sha1; };
     isAllowed = artifact:
-     let
-      lemma1 = acc: rule:
+    let
+     lemma1 = acc: rule:
       if rule.action == "allow" then
-      if rule ? os then rule.os.name == OS else true
-      else if rule ? os then
-       rule.os.name != OS
-       else
+       if rule ? os then rule.os.name == "linux" else true
+      else
        false;
       in if artifact ? rules then
        foldl' lemma1 false artifact.rules
       else
        true;
-      artifacts = lib.filter isAllowed versionInfo.libraries;
+     artifacts = lib.filter isAllowed versionInfo.libraries;
    in {
     inherit authClientID;
     version = versionInfo.id;
