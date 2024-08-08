@@ -1385,6 +1385,15 @@
     },
     "loader": "0.26.4-beta.1"
   },
+  "1.21.1": {
+    "libraries": {
+      "client": [
+        "net.fabricmc:intermediary:1.21.1",
+        "org.quiltmc:hashed:1.21.1"
+      ]
+    },
+    "loader": "0.26.4-beta.1"
+  },
   "1.21.1-rc1": {
     "libraries": {
       "client": [

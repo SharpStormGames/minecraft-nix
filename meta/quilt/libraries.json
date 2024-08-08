@@ -1084,6 +1084,13 @@
     },
     "repo": "https://maven.fabricmc.net/"
   },
+  "net.fabricmc:intermediary:1.21.1": {
+    "hash": {
+      "type": "sha512",
+      "value": "50e3b110ed438b52cb5e1e6f85bb95f4363de719e087e73284d85a22772f1a2c7d78981567c0e3bbe9e1c7ad0d16e39f247e6b17b3a9e48a5a126067c3893ddc"
+    },
+    "repo": "https://maven.fabricmc.net/"
+  },
   "net.fabricmc:intermediary:1.21.1-rc1": {
     "hash": {
       "type": "sha512",
@@ -3160,6 +3167,13 @@
     "hash": {
       "type": "sha512",
       "value": "d6c7f446b5b0ec6179313f50e5c406b74d945591a0bf4a7e8eb95c01086137897c8fc2597ebd4dc84556dd275dde04ec4d857ccf229fcdb004b9da3a89122091"
+    },
+    "repo": "https://maven.quiltmc.org/repository/release/"
+  },
+  "org.quiltmc:hashed:1.21.1": {
+    "hash": {
+      "type": "sha512",
+      "value": "60fc0c97d7e9662b4dc55612e432732bea26b8fb1e25565aae704300a0b21a186c5d3a12802ea8efbf5caa773ea1e96e4dccb5ea40ad67b414dc275a5fe5dd05"
     },
     "repo": "https://maven.quiltmc.org/repository/release/"
   },
