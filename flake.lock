@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "mcversions": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1724294089,
+        "narHash": "sha256-bZlk33YPpl9SATuJbO3Otr2hZ0/YwgbIspZCVaWa4BQ=",
+        "owner": "yushijinhun",
+        "repo": "minecraft-version-json-history",
+        "rev": "b170a85d1c47d5f057adb08f0cc058cb9082a48d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yushijinhun",
+        "repo": "minecraft-version-json-history",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1724224976,
+        "narHash": "sha256-Z/ELQhrSd7bMzTO8r7NZgi9g5emh+aRKoCdaAv5fiO0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c374d94f1536013ca8e92341b540eba4c22f9c62",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "mcversions": "mcversions",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
