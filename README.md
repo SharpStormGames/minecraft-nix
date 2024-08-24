@@ -2,6 +2,8 @@
 
 Declarative multi-instance minecraft through Home-Manager
 
+Currently offline-only, Login Support Will be added.
+
 Currently Supported:
 - [Forge](https://github.com/MinecraftForge)
 - [Fabric](https://fabricmc.net/)
@@ -12,6 +14,7 @@ Currently Supported:
 Coming Soon:
 - [Modrinth Modpacks](https://modrinth.com/modpacks)
 - [Neoforge (maybe)](https://neoforged.net/)
+- [Quilt](https://quiltmc.org/en/)
 
 ## Usage
 
@@ -38,7 +41,7 @@ starts Minecraft.
 ```nix
 {
   programs.minecraft = {
-    versions = {
+    instances = {
       "vanilla18" = {
         minecraft.version = "1.18";
       };
