@@ -4,15 +4,6 @@ let
 in
 {
   options = {
-    username = mkOption {
-      description = ''
-        Your in-game username.
-        Can be overwritten with the "MINECRAFT_USERNAME" environment variable.
-      '';
-      example = "NixDude";
-      type = types.nonEmptyStr;
-    };
-
     gamedir = mkOption {
       description = ''
         The directory where worlds, mods and other files are stored.
