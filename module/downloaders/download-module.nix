@@ -17,7 +17,7 @@ let
 
       ${scriptBefore}
 
-      jsonnet -J ${./jsonnet} -m $out \
+      jsonnet -J ${../jsonnet} -m $out \
         --tla-str-file orig_str=orig.json \
         $JSONNET_ARGS \
         ${jsonnetFile}
