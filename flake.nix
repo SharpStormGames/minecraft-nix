@@ -7,42 +7,19 @@
   };
 
   outputs = { self, nixpkgs, mcversions }: let pkgs = import nixpkgs { system = "x86_64-linux"; }; in {
-    nixosModules.home-manager.minecraft =
-      import ./home-manager.nix { inherit (self.lib) baseModules; };
-    lib.x86_64-linux = {
-      mkMinecraft = mod:
-        let result =
-          pkgs.lib.evalModules {
-            modules = [
-              mod
-              { _module.args = { inherit pkgs; }; }
-            ] ++ self.lib.x86_64-linux.baseModules;
-          };
-        in
-          result.config.runners.client;
-    }
-    // {
-      baseModules = [
-        { _module.args = { inherit mcversions; }; }
-        (import ./src/internal.nix)
-        (import ./src/minecraft.nix)
-        (import ./src/forge)
-        (import ./src/curseforge.nix)
-        (import ./src/modrinth.nix)
-        (import ./src/ftb.nix)
-        (import ./src/liteloader.nix)
-        (import ./src/fabric.nix)
-        (import ./src/curseforge-modpack.nix)
-      ];
-    };
-
-    templates.default = {
-      path = ./template;
-      description = "A simple flake for vanilla minecraft";
-      welcomeText = ''
-        Make sure to change the username and game directory!
-        For the list of all available options, visit https://12boti.github.io/nix-minecraft/
-      '';
-    };
+    nixosModules.home-manager.minecraft = import ./home-manager.nix { inherit (self.lib) baseModules; };
+    lib.x86_64-linux = import ./lib.nix { inherit self pkgs; };
+    baseModules = [
+      { _module.args = { inherit mcversions; }; }
+      (import ./module/loaders/forge)
+      (import ./module/loaders/fabric.nix)
+      (import ./module/loaders/liteloader.nix)
+      (import ./module/loaders/vanilla.nix)
+      (import ./module/modpacks/curseforge-modpack.nix)
+      (import ./module/modpacks/ftb.nix)
+      (import ./module/mods/curseforge.nix)
+      (import ./module/mods/modrinth.nix)
+      (import ./module/internal.nix)
+    ];
   };
 }

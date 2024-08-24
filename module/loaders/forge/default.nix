@@ -1,30 +1,15 @@
-# This file is part of nix-minecraft.
-
-# nix-minecraft is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# nix-minecraft is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with nix-minecraft.  If not, see <https://www.gnu.org/licenses/>.
-
 { config, pkgs, lib, mcversions, ... }:
 let
   inherit (lib) mkOption mkIf types;
   versionStr = "${config.minecraft.version}-${config.forge.version}";
 
-  downloaded = import ../download-module.nix {
+  downloaded = import ../../downloaders/download-module.nix {
     inherit pkgs lib;
     name = "forge-${versionStr}";
     enabled = config.forge.version != null;
     nativeBuildInputs = with pkgs; [ jre unzip ];
     hash = config.forge.hash;
-    jsonnetFile = ../jsonnet/forge.jsonnet;
+    jsonnetFile = ../../jsonnet/forge.jsonnet;
     scriptBefore = ''
       curl -L -o installer.jar \
         'https://maven.minecraftforge.net/net/minecraftforge/forge/${versionStr}/forge-${versionStr}-installer.jar'
