@@ -15,6 +15,10 @@ Coming Soon:
 - [Modrinth Modpacks](https://modrinth.com/modpacks)
 - [Neoforge (maybe)](https://neoforged.net/)
 - [Quilt](https://quiltmc.org/en/)
+- [Resource Packs - Curseforge](https://curseforge.com/minecraft/texture-packs)
+- [Resource Packs - Modrinth](https://modrinth.com/resourcepacks)
+- [Shader Packs - CurseForge](https://curseforge.com/minecraft/shaders)
+- [Shader Packs - Modrinth](https://modrinth.com/shaders)
 
 ## Usage
 
@@ -27,10 +31,8 @@ Import the home-manager module
 inputs.minecraft-nix.homeManagerModule
 ```
 
-Write your configuration at `programs.minecraft.versions.<name>`, where `<name>`
+Write your configuration at `programs.minecraft.instances.<name>`, where `<name>`
 is some string identifying that installation. You can have as many installations as you want.
-
-If you want some options to apply for all installations, put them in `programs.minecraft.shared`
 
 All installations will have a directory at `${programs.minecraft.basePath}/<name>/`
 (by default `~/.minecraft/<name>/`), which contains the game directory `gamedir`
