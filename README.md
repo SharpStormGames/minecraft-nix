@@ -7,6 +7,7 @@ Currently offline-only, Login Support Will be added.
 Currently Supported:
 - [Forge](https://github.com/MinecraftForge)
 - [Fabric](https://fabricmc.net/)
+- [Quilt](https://quiltmc.org/en/)
 - [Liteloader](https://www.liteloader.com) 
 - [CurseForge Modpacks](https://www.curseforge.com/minecraft/modpacks)
 - [Feed The Beast Modpacks](https://www.feed-the-beast.com/)
@@ -14,7 +15,6 @@ Currently Supported:
 Coming Soon:
 - [Modrinth Modpacks](https://modrinth.com/modpacks)
 - [Neoforge (maybe)](https://neoforged.net/)
-- [Quilt](https://quiltmc.org/en/)
 - [Resource Packs - Curseforge](https://curseforge.com/minecraft/texture-packs)
 - [Resource Packs - Modrinth](https://modrinth.com/resourcepacks)
 - [Shader Packs - CurseForge](https://curseforge.com/minecraft/shaders)
