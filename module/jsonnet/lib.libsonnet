@@ -122,7 +122,6 @@ local os = 'linux';
            ]);
          {
            minecraftArgs: string_args(pkg.arguments.game),
-           jvmArgs: string_args(pkg.arguments.jvm),
            overrideArguments: false,
          }
        else {})

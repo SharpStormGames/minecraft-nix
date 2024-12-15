@@ -15,6 +15,7 @@ mkMinecraft = mod:
     (import ./module/loaders/forge)
     (import ./module/loaders/fabric.nix)
     (import ./module/loaders/liteloader.nix)
+    (import ./module/loaders/quilt.nix)
     (import ./module/loaders/vanilla.nix)
     (import ./module/modpacks/curseforge-modpack.nix)
     (import ./module/modpacks/ftb.nix)

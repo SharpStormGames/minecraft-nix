@@ -34,7 +34,7 @@ in
     in
     # tell nix what attrs to expect to avoid infinite recursion
     {
-      inherit (module) minecraftArgs jvmArgs assets javaVersion libraries mainClass;
+      inherit (module) minecraftArgs assets javaVersion libraries mainClass;
       clientMappings = module.clientMappings or { };
     };
 }
