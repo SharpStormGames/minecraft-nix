@@ -1,6 +1,7 @@
 # minecraft-nix
 
 Declarative multi-instance minecraft through Home-Manager
+
 You will be prompted to login to your microsoft account, this is to ensure you own the game
 
 Currently Supported:
