@@ -5,8 +5,8 @@ let
 in
 {
   imports = [
-    ../runners.nix
-    ../downloaders/downloaders.nix
+    ../module/runners.nix
+    ../assets/downloaders/downloaders.nix
   ];
 
   options.minecraft = {
@@ -27,8 +27,8 @@ in
           }
           ''
             jsonfile="$(find ${mcversions}/history -name '${cfg.version}.json')"
-            jsonnet -J ${../jsonnet} --tla-str-file orig_str="$jsonfile" -o $out \
-              ${../jsonnet/normalize.jsonnet}
+            jsonnet -J ${../assets/jsonnet} --tla-str-file orig_str="$jsonfile" -o $out \
+              ${../assets/jsonnet/normalize.jsonnet}
           '';
       module = lib.importJSON normalized;
     in

@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }: let inherit (lib) mkOption types; in {
+{ lib, ... }: let inherit (lib) mkOption types; in {
   options = {
     gamedir = mkOption {
       description = ''

@@ -22,12 +22,12 @@ in
     };
   };
 
-  config.internal = (import ../downloaders/download-module.nix {
+  config.internal = (import ../assets/downloaders/download-module.nix {
     inherit pkgs lib;
     name = "fabric-${config.fabric.version}";
     enabled = config.fabric.version != null;
     hash = config.fabric.hash;
-    jsonnetFile = ../jsonnet/download.jsonnet;
+    jsonnetFile = ../assets/jsonnet/download.jsonnet;
     scriptBefore = ''
       curl -L -o orig.json \
         'https://meta.fabricmc.net/v2/versions/loader/${config.minecraft.version}/${config.fabric.version}/profile/json'

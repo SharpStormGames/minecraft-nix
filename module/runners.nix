@@ -1,7 +1,4 @@
 { config, pkgs, lib, ... }:
-let
-  inherit (lib) mkOption types;
-in
 {
   imports = [ ./options.nix ];
   
@@ -16,6 +13,9 @@ in
         config.mods.manual;
 
     runners.client = let
+
+      pythonWithRequests = pkgs.python3.withPackages (ps: [ ps.requests ]);
+
       nativeLibsDir = pkgs.symlinkJoin {
         name = "minecraft-natives";
         paths = config.downloaded.natives ++ [ "${pkgs.libpulseaudio}/lib" "${pkgs.xorg.libXxf86vm}/lib" "${pkgs.libGL}/lib" "${pkgs.flite.lib}/lib" ];
@@ -46,12 +46,11 @@ in
           pkgs.runCommand "symlink-gamedir-files" { }
             (lib.concatStringsSep "\n" scripts);
 
-      argsToString = lib.concatMapStringsSep " " (x: ''"${x}"'');
-
       runner = pkgs.writeShellScript "minecraft-runner" ''
         set -o errexit
         set -o pipefail
-        PATH='${lib.makeBinPath (with pkgs; [ coreutils rsync ])}'
+        script_dir=$(dirname "$(realpath "$0")")
+        PATH='${lib.makeBinPath (with pkgs; [ coreutils rsync jq nushell zenity wl-clipboard xclip])}:$PATH'
         out='%OUT%'
         version_name='${config.minecraft.version}'
         game_directory="''${MINECRAFT_GAMEDIR:-${config.gamedir}}"
@@ -66,9 +65,16 @@ in
         cd "$game_directory"
         ${lib.optionalString (config.cleanFiles != []) '' rm -rfv ${lib.escapeShellArgs config.cleanFiles} ''}
         ${lib.optionalString (extraGamedir != null) '' rsync -rL --ignore-existing --chmod=755 --info=skip2,name $out/gamedir/ "$game_directory" ''}
-        assets_root="$out/assets"
+        cp -ru ${config.downloaded.assets} $game_directory/assets
+        chmod -R 777 $game_directory/assets/
+        assets_root="$game_directory/assets"
         assets_index_name='${config.internal.assets.id}'
         ulimit -n 4096 || echo "warning: couldn't increase file descriptor limit, continuing" 1>&2
+        cd $out/bin && ${pythonWithRequests}/bin/python auth.py
+        cd $game_directory
+        uuid=$(jq -r '.uuid' ~/.cache/mc-nix-creds.json)
+        username=$(jq -r '.username' ~/.cache/mc-nix-creds.json)
+        accessToken=$(jq -r '.accessToken' ~/.cache/mc-nix-creds.json)
         exec env \
           -u PATH \
           LD_LIBRARY_PATH="$jnatemp_directory:$natives_directory" \
@@ -80,9 +86,11 @@ in
           '${config.internal.mainClass}' \
           --assetIndex "${config.internal.assets.id}" \
           --assetsDir "$assets_root" \
-          --uuid "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa" \
-          --username "aaaaaaaaa" \
-          --accessToken "" \
+          --uuid "$uuid" \
+          --username "$username" \
+          --accessToken "$accessToken" \
+          --userType "msa" \
+          --version "${config.minecraft.version}" \
       '';
     in
     pkgs.stdenvNoCC.mkDerivation {
@@ -91,18 +99,19 @@ in
       dontUnpack = true;
       dontConfigure = true;
       dontBuild = true;
-
       installPhase = ''
         echo setting up environment
         mkdir -p $out
         ln -s ${nativeLibsDir} $out/natives
         ln -s ${jarsDir} $out/libraries
-        ln -s ${config.downloaded.assets} $out/assets
         ${lib.optionalString (extraGamedir != null) "ln -s ${extraGamedir} $out/gamedir"}
         echo creating runner script
         mkdir -p $out/bin
         sed "s|%OUT%|$out|" ${runner} > $out/bin/minecraft
         chmod +x $out/bin/minecraft
+        cp ${./auth.py} $out/bin/auth.py
+        cp ${./authprompt.nu} $out/bin/authprompt.nu
+        chmod +x $out/bin/authprompt.nu
         ${config.postInstall}
       '';
       passthru = { inherit config; };

@@ -8,11 +8,9 @@
     homeManagerModules.minecraft = import ./module/module.nix { inherit (self.lib.x86_64-linux) baseModules; }; isNixOSModule = false;
     homeManagerModules.default = self.homeManagerModules.minecraft;
     homeManagerModule = self.homeManagerModules.minecraft;
-    lib.x86_64-linux = import ./lib.nix { inherit self pkgs mcversions; };
+    lib.x86_64-linux = import ./module/lib.nix { inherit self pkgs mcversions; };
     devShells.x86_64-linux.default = pkgs.mkShell {
       buildInputs = with pkgs.python3Packages; [  
-        colorama
-        pyjwt
         requests
         virtualenv
       ];

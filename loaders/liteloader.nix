@@ -24,13 +24,13 @@ in
     };
   };
 
-  config.internal = (import ../downloaders/download-module.nix {
+  config.internal = (import ../assets/downloaders/download-module.nix {
     inherit pkgs lib;
     name = "liteloader";
     enabled = config.liteloader.url != null;
     nativeBuildInputs = with pkgs; [ unzip ];
     hash = config.liteloader.hash;
-    jsonnetFile = ../jsonnet/liteloader.jsonnet;
+    jsonnetFile = ../assets/jsonnet/liteloader.jsonnet;
     scriptBefore = ''
       curl -L -o installer.jar '${cfg.url}'
       unzip -p installer.jar install_profile.json > orig.json

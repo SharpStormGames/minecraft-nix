@@ -1,8 +1,7 @@
 # minecraft-nix
 
 Declarative multi-instance minecraft through Home-Manager
-
-Currently offline-only, Login Support Will be added.
+You will be prompted to login to your microsoft account, this is to ensure you own the game
 
 Currently Supported:
 - [Forge](https://github.com/MinecraftForge)

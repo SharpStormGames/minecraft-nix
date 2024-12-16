@@ -22,12 +22,12 @@ in
     };
   };
 
-  config.internal = (import ../downloaders/download-module.nix {
+  config.internal = (import ../assets/downloaders/download-module.nix {
     inherit pkgs lib;
     name = "quilt-${config.quilt.version}";
     enabled = config.quilt.version != null;
     hash = config.quilt.hash;
-    jsonnetFile = ../jsonnet/download.jsonnet;
+    jsonnetFile = ../assets/jsonnet/download.jsonnet;
     scriptBefore = ''
       curl -L -o orig.json \
         'https://meta.quiltmc.org/v3/versions/loader/${config.minecraft.version}/${config.quilt.version}/profile/json'
