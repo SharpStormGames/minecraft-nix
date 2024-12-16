@@ -3,11 +3,11 @@
     "mcversions": {
       "flake": false,
       "locked": {
-        "lastModified": 1724294089,
-        "narHash": "sha256-bZlk33YPpl9SATuJbO3Otr2hZ0/YwgbIspZCVaWa4BQ=",
+        "lastModified": 1733281213,
+        "narHash": "sha256-XXIWpfL43dpqMKpripMkImDznrth2xiJnvA5i28noew=",
         "owner": "yushijinhun",
         "repo": "minecraft-version-json-history",
-        "rev": "b170a85d1c47d5f057adb08f0cc058cb9082a48d",
+        "rev": "73ca3f5f1badeefcc57abb102295ffbe99a428bb",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1724224976,
-        "narHash": "sha256-Z/ELQhrSd7bMzTO8r7NZgi9g5emh+aRKoCdaAv5fiO0=",
+        "lastModified": 1734119587,
+        "narHash": "sha256-AKU6qqskl0yf2+JdRdD0cfxX4b9x3KKV5RqA6wijmPM=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "c374d94f1536013ca8e92341b540eba4c22f9c62",
+        "rev": "3566ab7246670a43abd2ffa913cc62dad9cdf7d5",
         "type": "github"
       },
       "original": {
