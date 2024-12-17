@@ -6,14 +6,8 @@
   };
   outputs = { self, nixpkgs, mcversions }: let pkgs = import nixpkgs { system = "x86_64-linux"; }; in {
     homeManagerModules.minecraft = import ./module/module.nix { inherit (self.lib.x86_64-linux) baseModules; }; isNixOSModule = false;
-    homeManagerModules.default = self.homeManagerModules.minecraft;
     homeManagerModule = self.homeManagerModules.minecraft;
     lib.x86_64-linux = import ./module/lib.nix { inherit self pkgs mcversions; };
-    devShells.x86_64-linux.default = pkgs.mkShell {
-      buildInputs = with pkgs.python3Packages; [  
-        requests
-        virtualenv
-      ];
-    };
+    devShells.x86_64-linux.default = pkgs.mkShell { buildInputs = with pkgs.python3Packages; [ requests virtualenv ]; };
   };
 }

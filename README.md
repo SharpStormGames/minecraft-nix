@@ -29,6 +29,8 @@ inputs.minecraft-nix.url = "github:sharpstormgames/minecraft-nix";
 Import the home-manager module
 ```nix
 inputs.minecraft-nix.homeManagerModule
+# or use
+inputs.minecraft-nix.homeManagerModules.minecraft
 ```
 
 Write your configuration at `programs.minecraft.instances.<name>`, where `<name>`
