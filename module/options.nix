@@ -32,14 +32,14 @@
     cleanFiles = mkOption {
       description = ''
         Files and directories relative to the game directory to delete on every
-        startup. Defaults to the "mods" folder.
+        startup. 
       '';
       example = ''
         <pre><code>
         [ "config" "mods" "resourcepacks" "options.txt" ]
         </code></pre>
       '';
-      default = [ "mods" ];
+      default = [ ];
       type = types.listOf types.nonEmptyStr;
     };
 

@@ -8,6 +8,6 @@
     homeManagerModules.minecraft = import ./module/module.nix { inherit (self.lib.x86_64-linux) baseModules; }; isNixOSModule = false;
     homeManagerModule = self.homeManagerModules.minecraft;
     lib.x86_64-linux = import ./module/lib.nix { inherit self pkgs mcversions; };
-    devShells.x86_64-linux.default = pkgs.mkShell { buildInputs = with pkgs.python3Packages; [ requests virtualenv ]; };
+    devShells.x86_64-linux.default = pkgs.mkShell { buildInputs = with pkgs; [ nodejs python3Packages.requests python3Packages.virtualenv ]; };
   };
 }
