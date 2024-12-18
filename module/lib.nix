@@ -19,7 +19,6 @@ mkMinecraft = mod:
     (import ../loaders/vanilla.nix)
     (import ../mods/packs/curseforge-modpack.nix)
     (import ../mods/packs/ftb.nix)
-    (import ../mods/direct/curseforge.nix)
     (import ../mods/direct/modrinth.nix)
     (import ./internal.nix)
   ];
