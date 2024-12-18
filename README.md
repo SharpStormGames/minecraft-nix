@@ -21,46 +21,7 @@ Coming Soon:
 - [Shader Packs - Modrinth](https://modrinth.com/shaders)
 
 ## Usage
-
-Add the Flake input
-```nix
-inputs.minecraft-nix.url = "github:sharpstormgames/minecraft-nix";
-```
-Import the home-manager module
-```nix
-inputs.minecraft-nix.homeManagerModule
-# or use
-inputs.minecraft-nix.homeManagerModules.minecraft
-```
-
-Write your configuration at `programs.minecraft.instances.<name>`, where `<name>`
-is some string identifying that installation. You can have as many installations as you want.
-
-All installations will have a directory at `${programs.minecraft.basePath}/<name>/`
-(by default `~/.minecraft/<name>/`), which contains the game directory `gamedir`
-(where your worlds and settings are saved) and an executable named `run` which
-starts Minecraft.
-
-### Example
-```nix
-{
-  programs.minecraft = {
-    instances = {
-      "vanilla18" = {
-        minecraft.version = "1.18";
-      };
-      "projectozone3" = {
-        modpack.curseforge = {
-          projectId = 256289;
-          fileId = 3590506;
-          hash = "sha256-sm1JihpKd8OeW5t8E4+/wCgAnD8/HpDCLS+CvdcNmqY=";
-        };
-        forge.hash = "sha256-5lQKotcSIgRyb5+MZIEE1U/27rSvwy8Wmb4yCagvsbs=";
-      };
-    };
-  };
-}
-```
+See the [Documentation](https://sharpstormgames.github.io/minecraft-nix)
 
 ##
 
