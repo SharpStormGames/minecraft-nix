@@ -20,4 +20,4 @@ programs.minecraft = {
 };
 ```
 
-Leave quilt.hash blank and rebuild, nix will tell you what hash to use.
+Leave fabric.hash blank and rebuild, nix will tell you what hash to use.
