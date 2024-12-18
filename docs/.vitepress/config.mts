@@ -3,10 +3,15 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Minecraft-Nix Docs",
-  description: "A VitePress Site",
+  description: "Documentation for minecraft-nix",
   base: "/minecraft-nix/",
   themeConfig: {
-    search: { provider: 'local' },
+    search: { 
+      provider: 'local', 
+      options: {
+        detailedView: true,
+      },
+    },
     externalLinkIcon: true,
     sidebar: [
       { text: 'Initial Setup', link: '/' },
