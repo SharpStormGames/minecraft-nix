@@ -2,19 +2,20 @@
 let
   inherit (lib) mkOption types;
 
-  download = { projectId, version, hash }:
+
+  download = { projectSlug, versionId, hash }:
     pkgs.runCommandLocal
-      "modrinth-mod-${projectId}-${version}.jar"
+      "modrinth-mod-${projectSlug}-${versionId}.jar"
       {
         outputHash = hash;
         outputHashAlgo = "sha256";
         nativeBuildInputs = [ pkgs.curl pkgs.jq ];
         SSL_CERT_FILE = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
       }
-      ''
+      ''        
         url="$(
-        curl -L 'https://api.modrinth.com/api/v1/mod/${projectId}/version' \
-        | jq -r '.[] | select(.version_number == "${version}") | .files[0].url' \
+        curl -L 'https://api.modrinth.com/v2/project/${projectSlug}/version' \
+        | jq -r '.[] | select(.id== "${versionId}") | .files[0].url' \
         | sed 's/ /%20/g'
         )"
         curl -L -o "$out" "$url"
@@ -40,7 +41,7 @@ in
     default = [ ];
     type = types.listOf (types.submodule {
       options = {
-        projectId = mkOption {
+        projectSlug = mkOption {
           type = types.nonEmptyStr;
           description = ''
             The ID of the mod on modrinth.
@@ -48,7 +49,7 @@ in
             and select the mod you want. The Project ID will be on the right.
           '';
         };
-        version = mkOption {
+        versionId = mkOption {
           type = types.nonEmptyStr;
           description = ''
             The version of the mod on modrinth.
@@ -71,7 +72,7 @@ in
   config.extraGamedirFiles = map
     (m: {
       source = download m;
-      path = "mods/${m.projectId}-${m.version}.jar";
+      path = "mods/${m.projectSlug}-${m.versionId}.jar";
     })
     config.mods.modrinth;
 }
