@@ -31,7 +31,22 @@ export default defineConfig({
             ]
           }
         ]
-      }
+      },
+      {
+        text: 'Mods',
+        collapsed: true,
+        items: [
+          {
+            text: '',
+            base: '/mods/',
+            items: [
+              { text: 'Curseforge', link: 'curseforge' },
+              { text: 'Manual', link: 'manual' },
+              { text: 'Modrinth', link: 'modrinth' },
+            ]
+          }
+        ]
+      },
     ],
 
     socialLinks: [

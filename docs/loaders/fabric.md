@@ -14,10 +14,11 @@ programs.minecraft = {
     "your-fabric-instance-name" = {
       minecraft.version = "1.21";
       fabric.version = "0.16.9";
-      fabric.hash = "";
+      fabric.hash = "sha256-HRUNC2lxalF2L0HZR/KSe3qr9SHi0Cg5UGUqUTSsDCA=";
     };
   };
 };
 ```
-
+::: tip
 Leave fabric.hash blank and rebuild, nix will tell you what hash to use.
+:::

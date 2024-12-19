@@ -13,11 +13,12 @@ programs.minecraft = {
   instances = {
     "your-quilt-instance-name" = {
       minecraft.version = "1.21";
-      quilt.version = "0.16.9";
-      quilt.hash = "";
+      quilt.version = "0.27.1";
+      quilt.hash = "sha256-qWCc7Zv/xDwLMJn2o+ShsPGgfIH+zue4lsRS9iF4Y8k=";
     };
   };
 };
 ```
-
+::: tip
 Leave quilt.hash blank and rebuild, nix will tell you what hash to use.
+:::
