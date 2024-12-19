@@ -110,8 +110,8 @@
         sed "s|%OUT%|$out|" ${runner} > $out/bin/minecraft
         chmod +x $out/bin/minecraft
         cp ${./auth.py} $out/bin/auth.py
-        cp ${./authprompt.nu} $out/bin/authprompt.nu
-        chmod +x $out/bin/authprompt.nu
+        cp ${./auth.nu} $out/bin/auth.nu
+        chmod +x $out/bin/auth.nu
         ${config.postInstall}
       '';
       passthru = { inherit config; };

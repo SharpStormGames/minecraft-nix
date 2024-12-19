@@ -1,12 +1,12 @@
 import json, pathlib, requests, sys, time, os, subprocess
 
 def saveTokens(tokens):
-    cachePath = pathlib.Path.home() / ".cache" / "mc-nix-creds.json"
+    cachePath = pathlib.Path.home() / ".local/share" / "mc-nix-creds.json"
     with open(cachePath, 'w') as f:
         json.dump(tokens, f)
 
 def loadTokens():
-    cachePath = pathlib.Path.home() / ".cache" / "mc-nix-creds.json"
+    cachePath = pathlib.Path.home() / ".local/share" / "mc-nix-creds.json"
     if not cachePath.exists():
         return None
     
@@ -44,7 +44,7 @@ def authenticate():
         
         print(f"User Code: {authData['user_code']}")
         print(f"Verification URL: {authData['verification_uri']}")
-        subprocess.run([f"./authprompt.nu {authData['user_code']}"], shell=True)
+        subprocess.run([f"./auth.nu {authData['user_code']}"], shell=True)
         
         tokenParams = {
             "client_id": clientParams["client_id"],
